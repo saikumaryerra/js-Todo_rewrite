@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+</head>
+<body>
+<input type="text" id="sai">
+</body>
+<script type="text/javascript">
+	document.getElementById('sai').addEventListener('keypress', function(event) {
+    var temp = document.getElementById('sai').value;
+    var inputData = String(temp);
+    inputData = inputData.trim();
+    if (event.keyCode == 13 && inputData !== "") {
+        add(inputData);
+    }
+
+});
+	
+	function add(x){
+		var add1;
+		var y=String(x);
+		add1.push(x);
+		console.log(add1);
+	}
+</script>
+</html>

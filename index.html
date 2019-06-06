@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>main page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <!-- for input -->
+        <input type="text" id="checklist">
+        <!-- todo list -->
+        <div id="todo-list">
+
+        </div>
+        <!-- bottom bar -->
+        <div id="bottom-bar">
+            <p id="items-count">0 items left</p>
+            <button onclick="displayAll()">All</button>
+            <button onclick="displayActive()">Active</button>
+            <button onclick="displayCompleted()">Completed</button>
+            <p onclick="clearCompleted()">Clear completed</p>
+            <p onclick="clearItems()">Clear all</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="todo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.bottom-bar {
+    display: flex;
+}
+
+.bottom-bar p {
+    margin: 0;
+}
+.check{
+	text-decoration: line-through;
+}
+.hide{
+	display: none;
+}
