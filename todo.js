@@ -86,7 +86,7 @@ function domRefresh() {
         label.setAttribute('class', dataSet[i].status);
         label.appendChild(labelContent);
 
-        var crossMark = document.createElement('span');
+        var crossMark = document.createElement('button');
         crossMark.setAttribute('onclick', 'deleteFromData()')
         crossMark.innerHTML = "&#10005;";
 
